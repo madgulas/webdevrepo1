@@ -1,0 +1,133 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 5px;
+    width: 50px;
+
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+#btn2{
+    border: none;
+    color: rgb(22, 3, 3);
+    background-color: rgb(255, 46, 46);
+    
+}
+#center-heading{
+    font-size: 160px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(-0deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left:3%;
+    font-size: 17px;
+
+}
+
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right:3%;
+    font-size: 17px;
+
+}
+
+#bt-images {
+    position: absolute;
+    bottom: 10%;
+    right:3%;
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+
+#bt-img{
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    font-size: 17px;
+}
